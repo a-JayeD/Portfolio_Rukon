@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD. Rokun Uddin | Software Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">RU</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-container">
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">MD. Rokun Uddin</h1>
+            <h2 class="hero-title">Software Engineer II</h2>
+            <p class="hero-description">
+                8+ years of experience in enterprise systems, cloud solutions, and automation. 
+                Skilled in React, .NET Core, TypeScript, and Kubernetes with a strong track 
+                record in scaling systems and cutting costs.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="images/Resume_of_Rokun.pdf" download class="btn btn-secondary">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+            <div class="hero-social">
+                <a href="https://www.linkedin.com/in/rokun-uddin-1b3131276/" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:rokunnur1018@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        
+        <!-- Profile Image -->
+        <div class="hero-image">
+            <div class="hero-avatar">
+                <!-- Option 1: Use actual image -->
+                <img src="images/profile.png" alt="MD. Rokun Uddin" class="profile-img">
+                
+                <!-- Option 2: Fallback icon (shown if image fails) -->
+                <!-- <i class="fas fa-user-tie"></i> -->
+            </div>
+        </div>
+    </div>
+    <div class="hero-scroll">
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </div>
+</section>
+
+    <!-- About Section -->
+<section class="section about" id="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <!-- About Image -->
+            <div class="about-image">
+                <div class="about-img-wrapper">
+                    <img src="images/profile.png" alt="MD. Rokun Uddin">
+                    <div class="about-img-border"></div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">8+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4K+</span>
+                        <span class="stat-label">Users Served</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-text">
+                <h3>A Passionate Software Engineer Based in Dhaka</h3>
+                <p>
+                    I am a passionate Software Engineer with over 8 years of experience at Rancon Group, 
+                    where I've been instrumental in developing enterprise systems, implementing cloud solutions, 
+                    and driving automation initiatives.
+                </p>
+                <p>
+                    My expertise spans microservices architecture, API development, cloud cost optimization, 
+                    and IoT dashboarding. I have successfully led system migrations, implemented predictive 
+                    analytics, and established secure workflow implementations.
+                </p>
+                <p>
+                    I thrive on solving complex problems and am constantly learning new technologies to 
+                    deliver innovative solutions that make a real impact.
+                </p>
+                
+                <div class="about-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Name:</span>
+                        <span class="detail-value">MD. Rokun Uddin</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Email:</span>
+                        <span class="detail-value">rokunnur1018@gmail.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Location:</span>
+                        <span class="detail-value">Dhaka, Bangladesh</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Availability:</span>
+                        <span class="detail-value available">Open to opportunities</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C++</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">NodeJS</span>
+                        <span class="skill-tag">ReactJS</span>
+                        <span class="skill-tag">NextJS</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">.NET Core</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">ElasticSearch</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Azure AD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer II</h3>
+                            <span class="timeline-date">Jan 2020 – Present</span>
+                        </div>
+                        <h4 class="timeline-company">Rancon Electronics Ltd. <span class="location"><i class="fas fa-map-marker-alt"></i> Dhaka</span></h4>
+                        <ul class="timeline-list">
+                            <li>Built a warehouse system with microservices, syncing real-time inventory across units</li>
+                            <li>Enabled predictive maintenance using ML, cutting downtime by <strong>35%</strong></li>
+                            <li>Developed IoT dashboards for production lines with live metrics from <strong>200+ sensors</strong></li>
+                            <li>Cut cloud costs <strong>40%</strong> via K8s scaling + serverless migration</li>
+                            <li>Led secure document signing workflow with Azure AD integration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer I</h3>
+                            <span class="timeline-date">Oct 2016 – Dec 2019</span>
+                        </div>
+                        <h4 class="timeline-company">Rancon IT (Group Tech Division) <span class="location"><i class="fas fa-map-marker-alt"></i> Dhaka</span></h4>
+                        <ul class="timeline-list">
+                            <li>Built employee portal (React + .NET Core) for <strong>4K+ staff</strong></li>
+                            <li>Linked biometric logs with payroll API, reducing manual work by <strong>90%</strong></li>
+                            <li>Created vendor onboarding tool with real-time tracking and auto-verification</li>
+                            <li>Optimized delivery APIs, cutting route processing time <strong>15s → 3s</strong></li>
+                            <li>Migrated legacy system to React + TypeScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineering Intern</h3>
+                            <span class="timeline-date">Mar 2016 – Sep 2016</span>
+                        </div>
+                        <h4 class="timeline-company">Rancon Auto Industries Ltd. <span class="location"><i class="fas fa-map-marker-alt"></i> Dhaka</span></h4>
+                        <ul class="timeline-list">
+                            <li>Built VIN parser microservice for assembly line validation</li>
+                            <li>Automated compliance PDF reports, saving <strong>100+ hrs/month</strong></li>
+                            <li>Scaled reporting jobs with RabbitMQ for async processing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section class="section projects" id="projects">
+    <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project/zarvis.png" alt="ZARVIS E-Commerce">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link-btn" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link-btn" title="Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>ZARVIS E-COMMERCE</h3>
+                    <p>A comprehensive e-commerce platform allowing users to showcase creativity, shop, and sell. Features include seller/customer roles and shortest path finding.</p>
+                    <div class="project-tech">
+                        <span>MySQL</span>
+                        <span>JavaScript</span>
+                        <span>NodeJS</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project/jiggasha.avif" alt="JIGGASHA">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link-btn" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link-btn" title="Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>JIGGASHA</h3>
+                    <p>Q&A platform with image attachments, filtering, sorting by tags/favorites/votes. Features game-based learning and practice modules.</p>
+                    <div class="project-tech">
+                        <span>NodeJS</span>
+                        <span>ReactJS</span>
+                        <span>MongoDB</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project/discover.png" alt="DISCOVER">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link-btn" title="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link-btn" title="Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>DISCOVER</h3>
+                    <p>Professional platform for showcasing skills and awards. Features contest participation, leaderboards, and interview management.</p>
+                    <div class="project-tech">
+                        <span>NodeJS</span>
+                        <span>ReactJS</span>
+                        <span>MySQL</span>
+                        <span>Flutter</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project/redis.jpg" alt="Redis Server">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link-btn" title="Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Redis Server Implementation</h3>
+                    <p>Custom Redis Server supporting standard commands, master-slave replication, and transaction execution capabilities.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    <div class="contact-details">
+                        <a href="mailto:rokunnur1018@gmail.com" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>rokunnur1018@gmail.com</span>
+                        </a>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Dhaka, Bangladesh</span>
+                        </div>
+                        <a href="https://www.linkedin.com/in/rokun-uddin-1b3131276/" target="_blank" class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/rokunuddin</span>
+                        </a>
+                        <a href="https://github.com/rokunuddin" target="_blank" class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/rokunuddin</span>
+                        </a>
+                    </div>
+                    
+                    <!-- Simple mailto form alternative -->
+                    
+                </div>
+                
+                <!-- Optional: Contact Form with Formspree (FREE service, no backend needed) -->
+                <form class="contact-form" action="https://formspree.io/f/mqebwzka" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">RU</span>
+                    <p>Software Engineer</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/rokun-uddin-1b3131276/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/rokunuddin" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="mailto:rokunnur1018@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MD. Rokun Uddin. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
